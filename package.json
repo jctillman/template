@@ -1,0 +1,21 @@
+{
+  "name": "notepad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -t 6to5ify ./src/app.jsx -o ./dist/bundle.js -v"
+  },
+  "author": "James Tillman <James.Tillman.7@gmail.com> (https://github.com/jctillman)",
+  "license": "ISC",
+  "devDependencies": {
+    "6to5ify": "^4.1.1",
+    "browserify": "^11.2.0",
+    "react": "^0.13.3",
+    "watchify": "^3.4.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
